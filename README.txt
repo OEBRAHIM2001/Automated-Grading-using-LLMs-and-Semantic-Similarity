@@ -1,15 +1,33 @@
-This is a description of each Jupyter file, the version of Python used was 3.10.13.
---------------------------------------------------------------------------
-1. BERT Model - Automatic Grading (Dataset 1): This was the BERT model used for the first dataset, it includes the automatic grading results based on cosine similarity, Euclidean, and Manhattan distances. No fine-tuning included.
+Automatic Grading and Plagiarism Detection Using BERT and GPT-2
+Welcome to the repository for automatic grading and plagiarism detection using BERT and GPT-2 models. Below is a description of each Jupyter Notebook and the version of Python used is 3.10.13.
 
-2. GPT-2 Model - Automatic Grading (Dataset 1): This was the GPT-2 model used for the first dataset, it includes the automatic grading results based on cosine similarity, Euclidean, and Manhattan distances. No fine-tuning included.
+Jupyter Notebooks
+BERT Model - Automatic Grading (Dataset 1)
 
-3. Finely-Tuned BERT Model - Automatic Grading (Dataset 1): This is a BERT Model, this time finely-tuned using LoRA (Low Rank Adaptation). It includes the automatic grading results based on cosine similarity, Euclidean, and Manhattan distances.
+Description: Utilizes a pre-trained BERT model for automatic grading on the first dataset.
+Evaluation Metrics: Cosine similarity, Euclidean distance, and Manhattan distance.
+Fine-Tuning: None.
+GPT-2 Model - Automatic Grading (Dataset 1)
 
-4. Finely-Tuned GPT-2 Model - Automatic Grading (Dataset 1): This is a GPT-2 Model, this time finely-tuned using LoRA (Low Rank Adaptation). It includes the automatic grading results based on cosine similarity, Euclidean, and Manhattan distances for the FIRST dataset.
+Description: Employs a pre-trained GPT-2 model for automatic grading on the first dataset.
+Evaluation Metrics: Cosine similarity, Euclidean distance, and Manhattan distance.
+Fine-Tuning: None.
+Finely-Tuned BERT Model - Automatic Grading (Dataset 1)
 
-5. Finely-Tuned BERT Model - Automatic Grading & Plagiarism Detection (Dataset 2): This is a finely-tuned using LoRA (Low Rank Adaptation). It includes the automatic grading results in Part A based on cosine similarity for the SECOND dataset in Python. It also includes plagiarism detection in Part B.
+Description: A BERT model finely-tuned using Low-Rank Adaptation (LoRA) for automatic grading on the first dataset.
+Evaluation Metrics: Cosine similarity, Euclidean distance, and Manhattan distance.
+Finely-Tuned GPT-2 Model - Automatic Grading (Dataset 1)
 
-5. Finely-Tuned GPT-2 Model - Automatic Grading (Dataset 2): This is a GPT-2 Model, this time finely-tuned using LoRA (Low Rank Adaptation). It includes the results based on cosine similarity distances for the SECOND dataset.
---------------------------------------------------------------------------
-Omar Ebrahim - 202000443
+Description: A GPT-2 model finely-tuned using LoRA for automatic grading on the first dataset.
+Evaluation Metrics: Cosine similarity, Euclidean distance, and Manhattan distance.
+Finely-Tuned BERT Model - Automatic Grading & Plagiarism Detection (Dataset 2)
+
+Description: A finely-tuned BERT model using LoRA for both automatic grading and plagiarism detection on the second dataset.
+Part A: Automatic grading using cosine similarity.
+Part B: Plagiarism detection.
+Finely-Tuned GPT-2 Model - Automatic Grading (Dataset 2)
+
+Description: A GPT-2 model finely-tuned using LoRA for automatic grading on the second dataset.
+Evaluation Metrics: Cosine similarity.
+Author
+Omar Ebrahim - [Student ID: 202000443]
